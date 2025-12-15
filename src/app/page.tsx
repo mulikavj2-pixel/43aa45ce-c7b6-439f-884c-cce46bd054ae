@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardThirteen from '@/components/sections/feature/FeatureCardThirteen';
 import MetricCardSix from '@/components/sections/metrics/MetricCardSix';
@@ -43,12 +43,10 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardCarousel
+        <HeroBillboardScroll
           tag="Innovation Meets Execution"
           title="Build the Future with Smart Technology Solutions"
           description="Empower your business with cutting-edge software development, cloud infrastructure, and AI-driven innovations designed for the modern era."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765798261211-y3cuynsv.jpg"
-          imageAlt="Modern software dashboard"
           buttons={[
             { text: "Start Your Project", href: "contact" },
             { text: "Explore Our Services", href: "services" }
