@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
+import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardThirteen from '@/components/sections/feature/FeatureCardThirteen';
 import MetricCardSix from '@/components/sections/metrics/MetricCardSix';
@@ -43,7 +43,7 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboardScroll
+        <HeroBillboardCarousel
           tag="Innovation Meets Execution"
           title="Build the Future with Smart Technology Solutions"
           description="Empower your business with cutting-edge software development, cloud infrastructure, and AI-driven innovations designed for the modern era."
